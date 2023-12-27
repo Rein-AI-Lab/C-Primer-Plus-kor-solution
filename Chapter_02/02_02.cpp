@@ -6,12 +6,11 @@ int main(void){
 	using namespace std;
 	
 	float mile;
-	float kilometer;
 
-	cout << "Input mile: ";
+	cout << "마일을 입력하고 Enter 키를 누르십시오: ";
 
 	cin >> mile;
-	cout << mile_to_kilo(mile) << " kilometers" << endl;
+	cout << mile << " 마일은 " << mile_to_kilo(mile) << " 킬로미터입니다." << endl;
 
 	return 0;
 }

@@ -11,6 +11,6 @@ int main(void){
 
 	monthage = age * 12; 
 
-	cout << "Your age in month is " << monthage << endl;
+	cout << "이때 당신의 나이를 월수로 나타낼 경우 " << monthage << "입니다." << endl;
 	return 0;
 }
