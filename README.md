@@ -11,10 +11,9 @@ Stephen Prata. **C++ 기초 플러스**. 6판. 맹철규 번역. 프로그래밍
     type my_function(datatype data);
   
     int main(void){
-      
-      my_function(data);
-      ...
-      return 0;
+        my_function(data);
+        ...
+        return 0;
     }
   
     type my_function(datatype data){
